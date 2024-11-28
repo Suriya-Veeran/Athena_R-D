@@ -59,7 +59,8 @@ public class RetrieverClassUpdate {
     }
   }
 
-  private static void retrieveAthenaBasicInfo(AthenaClient athenaClient, String queryExecutionId) {
+  private static void retrieveAthenaBasicInfo(AthenaClient athenaClient,
+                                              String queryExecutionId) {
 
     GetQueryExecutionResponse queryExecutionResponse =
         athenaClient.getQueryExecution(
